@@ -1,0 +1,7 @@
+com\dbmanagement\student\profile\StudentProfileController.class
+com\dbmanagement\student\profile\StudentProfile.class
+com\dbmanagement\student\core\config\WebMvcConfig$1.class
+com\dbmanagement\student\profile\StudentService.class
+com\dbmanagement\student\StudentApplication.class
+com\dbmanagement\student\core\config\WebMvcConfig.class
+com\dbmanagement\student\profile\StudentProfileRepository.class
