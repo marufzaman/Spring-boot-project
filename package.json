@@ -2,9 +2,9 @@
   "name": "spring-boot-project",
   "scripts": {
     "springboot": "cd student/target && java -jar ./student-0.0.1-SNAPSHOT.jar",
-    "reactjs": "cd reactjs-app-for-student-api && npm start",
+    "reactjs": "cd reactjs-app-for-student-api && npm install && npm start",
     "concurrent": "concurrently \"npm run springboot\" \"npm run reactjs\"",
-    "deploy": "npm install concurrently && npm run concurrent"
+    "deploy": "npm install && npm run concurrent"
   },
   "keywords": [],
   "author": "A. M. Almarufuzzaman",
