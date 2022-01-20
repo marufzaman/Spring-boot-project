@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf51520-a857-46bd-96e0-8592e4421f3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs-app-for-student-api/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs-app-for-student-api/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dbmanagement.student.StudentApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dbmanagement.student.StudentApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dbmanagement.student.StudentApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.dbmanagement.student.StudentApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +161,8 @@
       <workItem from="1642582293389" duration="1511000" />
       <workItem from="1642590008954" duration="363000" />
       <workItem from="1642591509003" duration="452000" />
+      <workItem from="1642652853449" duration="540000" />
+      <workItem from="1642665938597" duration="596000" />
     </task>
     <servers />
   </component>

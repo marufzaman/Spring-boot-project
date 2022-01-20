@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Divider, Grid, TablePagination, Typography } from '@material-ui/core'
 import MaterialTable from 'material-table'
 import React, { useEffect, useState } from 'react'
@@ -17,10 +16,6 @@ function App() {
       .then((response) => response.json())
       .then((response) => setTableData(response))
   }
-
-  // const getStudents = apiData.map((profile) => {
-  //   return profile
-  // })
 
   const columns = [
     {
@@ -110,7 +105,7 @@ function App() {
         editable={{
           onRowAdd: (newRow) =>
             new Promise((resolve, reject) => {
-              const updatedData = [...tableData, newRow]
+              var error
 
               fetch(url, {
                 method: 'POST',
@@ -121,16 +116,20 @@ function App() {
               })
                 .then((response) => response.json())
                 .then((response) => getStudents())
+                .catch((error) => error.message)
 
-              setTimeout(() => {
-                setTableData(updatedData)
-                resolve()
-              }, 500)
+              if (error) {
+                reject('Student already exists!')
+              } else {
+                setTimeout(() => {
+                  resolve()
+                  getStudents()
+                }, 500)
+              }
             }),
           onRowUpdate: (newRow, oldRow) =>
             new Promise((resolve, reject) => {
-              const updatedData = [...tableData]
-              updatedData[oldRow.tableData.id] = newRow
+              var error
 
               fetch(
                 url +
@@ -149,26 +148,36 @@ function App() {
               )
                 .then((response) => response.json())
                 .then(getStudents())
-                .then((response) => console.log(response))
-              setTimeout(() => {
-                setTableData(updatedData)
-                resolve()
-              }, 500)
+                .catch((error) => error.message)
+
+              if (error) {
+                reject('Student already exists!')
+              } else {
+                setTimeout(() => {
+                  resolve()
+                  getStudents()
+                }, 500)
+              }
             }),
           onRowDelete: (selectedRow) =>
             new Promise((resolve, reject) => {
-              const updatedData = [...tableData]
-              updatedData.splice(selectedRow.tableData.id, 1)
+              var error
+
               fetch(url + selectedRow.id, {
                 method: 'DELETE',
               })
                 .then((response) => response.json())
                 .then(getStudents())
-                .then((response) => console.log(response))
-              setTimeout(() => {
-                setTableData(updatedData)
-                resolve()
-              }, 1000)
+                .catch((error) => error.message)
+
+              if (error) {
+                reject('Student does not exists!')
+              } else {
+                setTimeout(() => {
+                  resolve()
+                  getStudents()
+                }, 500)
+              }
             }),
         }}
         options={{
@@ -187,7 +196,7 @@ function App() {
             30,
             50,
             100,
-            { value: getStudents.length, label: 'All' },
+            { value: tableData.length, label: 'All' },
           ],
           showFirstLastPageButtons: true,
           paginationPosition: 'bottom',
@@ -196,6 +205,7 @@ function App() {
           exportFileName: 'all-student-list',
           addRowPosition: 'first',
           actionsColumnIndex: -1,
+          showErrorMessage: true,
 
           //
 
